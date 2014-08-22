@@ -2,7 +2,7 @@
 \alias{peak.GR.ES.chr10}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+OCT4 mESC ChIP-seq Peaks
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of the dataset. ~~
@@ -41,15 +41,6 @@ Formal class 'GRanges' [package "GenomicRanges"] with 6 slots
   .. .. ..@ is_circular: logi [1:22] NA NA NA NA NA NA ...
   .. .. ..@ genome     : chr [1:22] NA NA NA NA ...
   ..@ metadata       : list()
-}
-\details{
-%%  ~~ If necessary, more details than the __description__ above ~~
-}
-\source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
-}
-\references{
-%%  ~~ possibly secondary sources and usages ~~
 }
 \examples{
 data(peak.GR.ES.chr10)

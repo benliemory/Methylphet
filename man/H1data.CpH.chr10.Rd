@@ -5,7 +5,7 @@
  OCT4 H1 CpH Methylation(chr10)
 }
 \description{
-CpG methylation profile for OCT4 on H1-hESC cell line.
+CpH methylation profile for OCT4 on H1-hESC cell line.
 }
 \usage{data(H1data.CpH.chr10)}
 \format{

@@ -2,7 +2,7 @@
 \alias{H1data.motif.chr10}
 \docType{data}
 \title{
-OCT4 H1 motif(chr10) 
+OCT4 hg18 motif(chr10) 
 }
 \description{
 candidate location and motif score.

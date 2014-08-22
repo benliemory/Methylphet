@@ -1,9 +1,9 @@
 Package: Methylphet
 Type: Package
-Title: What the package does (short line)
-Version: 1.0
+Title: Base-resolution methylation patterns accurately predict transcription factor bindings in vivo 
+Version: 0.1
 Date: 2014-08-21
 Author: Who wrote it
 Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Description: Methylphet adopt a novel supervised learning approach to predict TF-DNA interaction using DNA methylation profiles from whole-genome bisulfite sequencing data by exploiting the connection between DNA methylation level and TF binding. Two beta-binomial models are devised to characterize DNA methylation data around TF binding sites and the background. Along with other static genomic features, Methylphet adopt a supervised learning framework to predict TF-DNA interaction. When all methylation profile are taken together and combined with features at the sequence level, Methylphet can accurately predict TF binding and performs favorably when compared against competing methods.
+License: GPL-2

@@ -2,10 +2,10 @@
 \alias{mESdata.motif.chr10}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+OCT4 mm9 motif(chr10) 
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+candidate location and motif score.
 }
 \usage{data(mESdata.motif.chr10)}
 \format{
@@ -19,15 +19,7 @@
     \item{\code{motif}}{a numeric vector}
   }
 }
-\details{
-%%  ~~ If necessary, more details than the __description__ above ~~
-}
-\source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
-}
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
+
 \examples{
 data(mESdata.motif.chr10)
 ## maybe str(mESdata.motif.chr10) ; plot(mESdata.motif.chr10) ...

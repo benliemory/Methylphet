@@ -2,10 +2,10 @@
 \alias{mESdata.CpH.chr10}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+OCT4 mES CpH Methylation(chr10)
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+CpH methylation profile for OCT4 on mESC cell line.
 }
 \usage{data(mESdata.CpH.chr10)}
 \format{
@@ -54,15 +54,6 @@
     \item{\code{total.20}}{a numeric vector}
     \item{\code{total.21}}{a numeric vector}
   }
-}
-\details{
-%%  ~~ If necessary, more details than the __description__ above ~~
-}
-\source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
-}
-\references{
-%%  ~~ possibly secondary sources and usages ~~
 }
 \examples{
 data(mESdata.CpH.chr10)

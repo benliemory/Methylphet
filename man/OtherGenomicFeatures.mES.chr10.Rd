@@ -2,10 +2,10 @@
 \alias{OtherGenomicFeatures.mES.chr10}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+Other Genomic Features
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Other Genomic Features
 }
 \usage{data(OtherGenomicFeatures.mES.chr10)}
 \format{
@@ -15,15 +15,7 @@
   ..$ : NULL
   ..$ : chr [1:9] "motif.TSSdist" "motif.phastCon.score" "is.tss" "is.tes" ...
 }
-\details{
-%%  ~~ If necessary, more details than the __description__ above ~~
-}
-\source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
-}
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
+
 \examples{
 data(OtherGenomicFeatures.mES.chr10)
 ## maybe str(OtherGenomicFeatures.mES.chr10) ; plot(OtherGenomicFeatures.mES.chr10) ...
