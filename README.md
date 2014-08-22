@@ -1,3 +1,0 @@
-Methylphet
-==========
-R package "Methylphet"
