@@ -113,6 +113,8 @@ function(traindata.mat =NA, traindata.methyl1=NA,traindata.methyl2=NA,
   Predict =
     function(paras, data_5mc)
     {
+      require(Biostrings)
+      require(GenomicRanges)
       dat = as.matrix(data_5mc[,c(grep("^methy",names(data_5mc)),grep("^total",names(data_5mc)))])
       ncol = ncol(dat)/2
       llr.21 = apply(dat, 1, function(y) llratio(y[1:ncol], y[ncol+(1:ncol)],paras))     ##### 21 windows
