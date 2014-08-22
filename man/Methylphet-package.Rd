@@ -4,7 +4,6 @@
 \docType{package}
 \title{
 Base-resolution methylation patterns accurately predict transcription factor bindings in vivo  
-
 }
 \description{
 Methylphet adopt a novel supervised learning approach to predict TF-DNA interaction using DNA methylation profiles from whole-genome bisulfite sequencing data by exploiting the connection between DNA methylation level and TF binding. Two beta-binomial models are devised to characterize DNA methylation data around TF binding sites and the background. Along with other static genomic features, Methylphet adopt a supervised learning framework to predict TF-DNA interaction. When all methylation profile are taken together and combined with features at the sequence level, Methylphet can accurately predict TF binding and performs favorably when compared against competing methods.
