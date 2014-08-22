@@ -152,7 +152,8 @@ function(traindata.mat =NA, traindata.methyl1=NA,traindata.methyl2=NA,
   
   ChIPseqpeaks2goldstandard = 
     function(traindata.mat, ChIPseqPeaks )
-    {
+    { require(Biostrings)
+      require(GenomicRanges)
       sites.tmp = GRanges(seqnames=Rle(traindata.mat$seqnames),
                           ranges = IRanges(start = traindata.mat$start-300, end = traindata.mat$end+300),
                           motif = traindata.mat$motif)
