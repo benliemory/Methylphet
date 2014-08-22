@@ -72,7 +72,7 @@ Other Genomic features including conservation scores, etc.for test data.
 ##--	or do  help(data=index)  for the standard data sets.
 
 ## The function is currently defined as
-data()
+data(list = data(package="Methylphet")$results[,3])
 
 OCT4_CpG = Methylphet(traindata.mat = mESdata.motif.chr10,traindata.methyl1=mESdata.CpG.chr10, 
                       goldstandard=goldstandard.chr10, OtherGenomicFeatures.train=OtherGenomicFeatures.mES.chr10,
