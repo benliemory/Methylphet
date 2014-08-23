@@ -147,7 +147,7 @@ function(traindata.mat =NA, traindata.methyl1=NA,traindata.methyl2=NA,
             binding_flag = as.numeric(sites %over% peak.GR)
       }
       
-      Pred_all = cbind(as.data.frame(pred_results),binding_flag)
+      Pred_all = cbind(BiocGenerics::as.data.frame(pred_results),binding_flag)
       
     }
   
