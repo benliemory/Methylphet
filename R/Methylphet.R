@@ -7,6 +7,7 @@ function(traindata.mat =NA, traindata.methyl1=NA,traindata.methyl2=NA,
 {
   require(Biostrings)
   require(GenomicRanges)
+  require(IRanges)
   #require(BSgenome.Hsapiens.UCSC.hg18)
   #require(BSgenome.Mmusculus.UCSC.mm9)
   require(randomForest)
