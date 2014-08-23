@@ -5,9 +5,9 @@ function(traindata.mat =NA, traindata.methyl1=NA,traindata.methyl2=NA,
                       testdata.mat =NA, testdata.methyl1=NA,testdata.methyl2=NA,
                       OtherGenomicFeatures.test=NA)
 {
-  require(Biostrings)
+  #require(Biostrings)
   require(GenomicRanges)
-  require(IRanges)
+  #require(IRanges)
   #require(BSgenome.Hsapiens.UCSC.hg18)
   #require(BSgenome.Mmusculus.UCSC.mm9)
   require(randomForest)
@@ -72,7 +72,7 @@ function(traindata.mat =NA, traindata.methyl1=NA,traindata.methyl2=NA,
   Train_machine =
     function(data_5mc,binding_flag = NA , win.no = 10,win.len = 30,peak.GR.data = FALSE,peak.GR=NA)
     {
-      require(Biostrings)
+      #require(Biostrings)
       require(GenomicRanges)
       
       if (peak.GR.data == TRUE)
@@ -114,7 +114,7 @@ function(traindata.mat =NA, traindata.methyl1=NA,traindata.methyl2=NA,
   Predict =
     function(paras, data_5mc)
     {
-      require(Biostrings)
+      #require(Biostrings)
       require(GenomicRanges)
       dat = as.matrix(data_5mc[,c(grep("^methy",names(data_5mc)),grep("^total",names(data_5mc)))])
       ncol = ncol(dat)/2
@@ -132,7 +132,7 @@ function(traindata.mat =NA, traindata.methyl1=NA,traindata.methyl2=NA,
   Test_machine =
     function(data_5mc,paras,binding_flag = NA,peak.GR.data = FALSE,peak.GR = NA)
     {
-      require(Biostrings)
+      #require(Biostrings)
       require(GenomicRanges)
       
       pred_results = Predict(paras, data_5mc)
@@ -153,7 +153,7 @@ function(traindata.mat =NA, traindata.methyl1=NA,traindata.methyl2=NA,
   
   ChIPseqpeaks2goldstandard = 
     function(traindata.mat, ChIPseqPeaks )
-    { require(Biostrings)
+    { #require(Biostrings)
       require(GenomicRanges)
       sites.tmp = GRanges(seqnames=Rle(traindata.mat$seqnames),
                           ranges = IRanges(start = traindata.mat$start-300, end = traindata.mat$end+300),
