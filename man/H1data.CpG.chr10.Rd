@@ -57,6 +57,5 @@
 }
 \examples{
 data(H1data.CpG.chr10)
-## maybe str(H1data.CpG.chr10) ; plot(H1data.CpG.chr10) ...
 }
 \keyword{datasets}

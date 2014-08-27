@@ -57,6 +57,5 @@ CpH methylation profile for OCT4 on mESC cell line. The methylation reads and to
 }
 \examples{
 data(mESdata.CpH.chr10)
-## maybe str(mESdata.CpH.chr10) ; plot(mESdata.CpH.chr10) ...
 }
 \keyword{datasets}

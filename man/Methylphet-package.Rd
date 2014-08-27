@@ -17,7 +17,7 @@ Version: \tab 1.0\cr
 Date: \tab 2014-08-21\cr
 License: \tab GPL-2
 }
-~~ An overview of how to use the package, including the most important functions ~~
+Train data set and test data set are required for the prediction of TFBS. Both data set requires location informatoin for candidate sites, motif scores, methylation information(CpG or CpH) or 5hmc information. Training data set needs additional golden standard or ChIP-seq information. With all these information provided, Methylphet will return predict results for each candidate site as well as the predict model. 
 }
 \author{
 Tianlei Xu, Ben Li, Hao Wu, Zhaohui Qin

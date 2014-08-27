@@ -22,6 +22,5 @@ The data contain the location information and motif scores for the candidate sit
 
 \examples{
 data(H1data.motif.chr10)
-## maybe str(H1data.motif.chr10) ; plot(H1data.motif.chr10) ...
 }
 \keyword{datasets}

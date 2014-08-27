@@ -58,6 +58,5 @@ CpG methylation profile for OCT4 on mESC cell line. The methylation reads and to
 
 \examples{
 data(mESdata.CpG.chr10)
-## maybe str(mESdata.CpG.chr10) ; plot(mESdata.CpG.chr10) ...
 }
 \keyword{datasets}

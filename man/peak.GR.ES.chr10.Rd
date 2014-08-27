@@ -44,6 +44,5 @@ Formal class 'GRanges' [package "GenomicRanges"] with 6 slots
 }
 \examples{
 data(peak.GR.ES.chr10)
-## maybe str(peak.GR.ES.chr10) ; plot(peak.GR.ES.chr10) ...
 }
 \keyword{datasets}

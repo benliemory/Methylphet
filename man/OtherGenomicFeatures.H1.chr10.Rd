@@ -18,6 +18,5 @@ Other Genomic Features include distance between the center of candidate TFBS and
 }
 \examples{
 data(OtherGenomicFeatures.H1.chr10)
-## maybe str(OtherGenomicFeatures.H1.chr10) ; plot(OtherGenomicFeatures.H1.chr10) ...
 }
 \keyword{datasets}

@@ -14,6 +14,5 @@
 }
 \examples{
 data(goldstandard.chr10)
-## maybe str(goldstandard.chr10) ; plot(goldstandard.chr10) ...
 }
 \keyword{datasets}
