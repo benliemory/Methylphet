@@ -2,10 +2,10 @@
 \alias{mESdata.motif.chr10}
 \docType{data}
 \title{
-OCT4 mm9 motif(chr10) 
+OCT4 mm9 candidate location and motif score(chromosome 10) 
 }
 \description{
-candidate location and motif score.
+The data contain the location information and motif scores for the candidate sites.
 }
 \usage{data(mESdata.motif.chr10)}
 \format{

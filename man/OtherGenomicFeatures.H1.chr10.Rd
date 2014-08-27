@@ -2,10 +2,11 @@
 \alias{OtherGenomicFeatures.H1.chr10}
 \docType{data}
 \title{
-Other Genomic Features
+Other Genomic Features on H1-hESC cell line(chromosome 10)
 }
 \description{
-Other Genomic Features
+Other Genomic Features include distance between the center of candidate TFBS and the nearest TSS, distance between the center of candidate TFBS and the nearest center of other candidate TFBS, average conservation score of all bases on candidate TFBS, whether the candidate TFBS is overlapping with a repetitive region, whether the candidate TFBS is overlapping with an Intron, whether the candidate TFBS is overlapping with an Exon, whether the candidate TFBS is overlapping with an TSS, whether the candidate TFBS is overlapping with an TES, whether the candidate TFBS is overlapping with an CpG.
+
 }
 \usage{data(OtherGenomicFeatures.H1.chr10)}
 \format{

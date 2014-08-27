@@ -2,10 +2,10 @@
 \alias{H1data.CpH.chr10}
 \docType{data}
 \title{
- OCT4 H1 CpH Methylation(chr10)
+ OCT4 H1 CpH Methylation(chromosome 10)
 }
 \description{
-CpH methylation profile for OCT4 on H1-hESC cell line.
+CpH methylation profile for OCT4 on H1-hESC cell line. The methylation reads and total reads are summarized by windows(30 base pairs/window)
 }
 \usage{data(H1data.CpH.chr10)}
 \format{

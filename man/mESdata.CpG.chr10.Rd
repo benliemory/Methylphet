@@ -2,10 +2,10 @@
 \alias{mESdata.CpG.chr10}
 \docType{data}
 \title{
-OCT4 mESC CpG Methylation(chr10)
+OCT4 mESC CpG Methylation(chromosome 10)
 }
 \description{
-CpG methylation profile for OCT4 on mESC cell line.
+CpG methylation profile for OCT4 on mESC cell line. The methylation reads and total reads are summarized by windows(30 base pairs/window)
 }
 \usage{data(mESdata.CpG.chr10)}
 \format{

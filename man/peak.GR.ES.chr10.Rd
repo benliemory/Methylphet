@@ -5,7 +5,7 @@
 OCT4 mESC ChIP-seq Peaks
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Location information for ChIP-seq peaks. This can convert to golden standard which is required for the train data. 
 }
 \usage{data(peak.GR.ES.chr10)}
 \format{

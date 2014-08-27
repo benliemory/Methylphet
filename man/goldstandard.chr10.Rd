@@ -2,10 +2,10 @@
 \alias{goldstandard.chr10}
 \docType{data}
 \title{ 
-  OCT4 mES Golden Standard(chr10)
+  OCT4 mES Golden Standard(chromosome 10)
 }
 \description{
- 0/1 results indicating whether the candidate sites are overlap with a ChIP-seq peaks
+ 0/1 results indicating whether the candidate sites are overlap with a ChIP-seq peaks. 
 }
 \usage{data(goldstandard.chr10)}
 \format{
