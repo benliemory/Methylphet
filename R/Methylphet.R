@@ -134,6 +134,7 @@ function(traindata.mat =NA, traindata.methyl1=NA,traindata.methyl2=NA,
     {
       #require(Biostrings)
       require(GenomicRanges)
+      require(BiocGenerics)
       
       pred_results = Predict(paras, data_5mc)
       

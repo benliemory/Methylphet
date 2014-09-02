@@ -1,6 +1,5 @@
 \name{Methylphet-package}
 \alias{Methylphet-package}
-\alias{Methylphet}
 \docType{package}
 \title{
 Base-resolution methylation patterns accurately predict transcription factor bindings in vivo  
