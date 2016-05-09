@@ -1,4 +1,4 @@
-### Methylphet
+# Methylphet
 Base-resolution methylation patterns accurately predict transcription factor bindings in vivo
 
 ## Description
@@ -9,9 +9,11 @@ Methylphet adopts a two-step method to predict transcription factor-DNA interact
 
 Package "devtools" is required to install this package from Github
 
-`install.packages("devtools")`
+```R
+install.packages("devtools")
+```
 
-After installation
+After installing devtools, use the code below to install Methylphet:
 
 ```R
 library("devtools")
