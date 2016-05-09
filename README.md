@@ -1,5 +1,6 @@
 # Methylphet
 Base-resolution methylation patterns accurately predict transcription factor bindings in vivo
+Nucleic Acids Res. 2015 Mar 11;43(5):2757-66. doi: 10.1093/nar/gkv151. Epub 2015 Feb 26.
 
 ## Description
 Methylphet adopts a two-step method to predict transcription factor-DNA interaction using DNA methylation profiles from whole-genome bisulfite sequencing data by exploiting the connection between DNA methylation level and transcription factor binding. In the first step, beta-binomial models are devised to characterize DNA methylation data around TF binding sites and the background to estimate methylation scores. Along with other static genomic features, a random forest framework is adopted in the second step to predict transcription factor-DNA interaction. When all methylation profile are taken together and combined with features at the sequence level, Methylphet can accurately predict TF binding and performs favorably when compared against competing methods.
